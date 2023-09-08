@@ -1,13 +1,13 @@
 # site settings
 
 title: Subhadeep Koley
-description: A budding engineer
-taglong: A budding engineer
+description: A curious student; an aspiring roboticist
+taglong: A curious student; an aspiring roboticist
 tagshort: Jekyll theme
 url: https://cvless.netlify.app
 baseurl: ""
 permalink: pretty
-repo: https://github.com/username/username.github.io
+repo: https://github.com/wickedticket/wickedticket.github.io
 
 # author settings
 
