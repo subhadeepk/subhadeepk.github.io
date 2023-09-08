@@ -10,7 +10,7 @@ Hi!, I'm Subhadeep, a Mechanical Engineering senior at [Indian Institute of Engi
 
 I've always been interested in robotics and large systems with lots of moving parts. So far, I've taken up every opportunity that have come my way and have worked on a number of diverse research problems. Recently, I've taken a keen interest in Reinforcement Learning and the exciting world of opportunities it has opened up for enhancing robotic control and decision making.
 
-Beyond my passion for robots, I'm a film enthusiast. My fascination with robotics may well be rooted in that pivotal moment when I first experienced the iconic film, Blade Runner 1982. Additionally, I have a deep appreciation for Alt Rock and Hip Hop music, and on lazy Sunday afternoons, you can often find me strumming a Pink Floyd or Guns N' Roses tune on my guitar.
+Beyond my passion for robots, I'm a film enthusiast. My fascination with robotics may well be rooted in that pivotal moment when I first experienced Ridley Scott's Blade Runner 1982. Additionally, I have a deep appreciation for Alt Rock and Hip Hop music, and on lazy Sunday afternoons, you can often find me strumming a Pink Floyd or Guns N' Roses tune on my guitar.
 
 # A semi-professional summary 
 
