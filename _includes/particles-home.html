@@ -6,6 +6,9 @@
     <h1 class="particles-title">{{ site.title }}</h1>
     <h1 class="particles-subtitle">{{ site.taglong }}</h1>
     <div class="nowrap">
+      {% if site.social.facebook %}
+      <a class="particles-icon" href="https://docs.google.com/document/d/1R4gfbGRg_DPmfEXfYtnhAesv7193RAoXcedgzMwPltI/export?format=pdf">{% include svg/download.svg %}</a>  
+      {% endif %}
       {% if site.social.instagram %}      
       <a class="particles-icon" href="https://www.instagram.com/pinkvoid305/">{% include svg/instagram.svg %}</a>
       {% endif %}
