@@ -12,6 +12,18 @@ I've always been interested in robotics and large systems with lots of moving pa
 
 Beyond my passion for robots, I'm a film enthusiast. My fascination with robotics may well be rooted in that pivotal moment when I first experienced the iconic film, Blade Runner 1982. Additionally, I have a deep appreciation for Alt Rock and Hip Hop music, and on lazy Sunday afternoons, you can often find me strumming a Pink Floyd or Guns N' Roses tune on my guitar.
 
+# A semi-professional summary 
+
+-I have 1.5 years of research experience in the fields of robotics and UAVs. 
+
+-I successfully crafted a ROS framework for a decentralised drone swarm, enabling both leader-follower mode and independent missions. This framework powered the deployment of a swarm of five drones.
+
+-As a key contributor to the Swarm Project at SPIN Lab, IIT Kanpur, I engineered essential network monitoring tools and ROS-based congestion control solutions for dynamic mesh networks.
+
+-Additionally, my co-authorship on a paper addressing the thermal runaway of Lithium-ion batteries earned the prestigious Best Paper Award at a prominent conference.
+
+-Currently, I am leading a talented team of four students in the development of an innovative swash plate-less helicopter.
+
 # Education
 ## IIEST(Indian Institute of Engineering Science and Technology), Shibpur  
 BACHELOR OF TECHNOLOGY • MECHANICAL ENGINEERING [2020-Present] 
@@ -21,17 +33,7 @@ CGPA : 8.54/10
 AISSCE (All India Senior School Certificate Examination) 2020 
 Percentage obtained : 93.8%
 
-# A semi-professional summary 
 
-I have 1.5 years of research experience in the fields of robotics and UAVs. 
-
-I successfully crafted a ROS framework for a decentralised drone swarm, enabling both leader-follower mode and independent missions. This framework powered the deployment of a swarm of five drones.
-
-As a key contributor to the Swarm Project at SPIN Lab, IIT Kanpur, I engineered essential network monitoring tools and ROS-based congestion control solutions for dynamic mesh networks.
-
-Additionally, my co-authorship on a paper addressing the thermal runaway of Lithium-ion batteries earned the prestigious Best Paper Award at a prominent conference.
-
-Currently, I am leading a talented team of four students in the development of an innovative swash plate-less helicopter.
 
 # Publications
 
