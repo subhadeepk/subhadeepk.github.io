@@ -41,5 +41,9 @@ Percentage obtained : 93.8%
 
 Ajit Das, Saumendra Nath Mishra, **Subhadeep Koley**, Sourav Sarkar, Achintya Mukhopadhyay, Swarnendu Sen:  “Early detection of thermal runaway of lithium-ion battery- an experimental study”. IEEE 3rd International Conference on “Sustainable Energy and Future Electric Transportation” [Best paper award](https://drive.google.com/file/d/1FeZFQ7x7Wm1YGEY3cGaPKMvMhaADiMVU/view?usp=sharing)
 
+# Contact
+Email: ksubhadeepwork@gmail.com
+Discord: crimsonblues3667
 
-{% include archive.html %}
+
+
