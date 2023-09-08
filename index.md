@@ -1,3 +1,4 @@
+
 ---
 layout: home
 title: Home
@@ -14,15 +15,17 @@ Beyond my passion for robots, I'm a film enthusiast. My fascination with robotic
 
 # A semi-professional summary 
 
--I have 1.5 years of research experience in the fields of robotics and UAVs. 
+Details regarding my experiences are available in my resume. Here's a brief summary:
 
--I successfully crafted a ROS framework for a decentralised drone swarm, enabling both leader-follower mode and independent missions. This framework powered the deployment of a swarm of five drones.
+- I have 1.5 years of research experience in the fields of robotics and UAVs. 
 
--As a key contributor to the Swarm Project at SPIN Lab, IIT Kanpur, I engineered essential network monitoring tools and ROS-based congestion control solutions for dynamic mesh networks.
+- I successfully crafted a ROS framework for a decentralised drone swarm, enabling both leader-follower mode and independent missions. This framework powered the deployment of a swarm of five drones.
 
--Additionally, my co-authorship on a paper addressing the thermal runaway of Lithium-ion batteries earned the prestigious Best Paper Award at a prominent conference.
+- As a key contributor to the Swarm Project at SPIN Lab, IIT Kanpur, I engineered essential network monitoring tools and ROS-based congestion control solutions for dynamic mesh networks.
 
--Currently, I am leading a talented team of four students in the development of an innovative swash plate-less helicopter.
+- Additionally, my co-authorship on a paper addressing the thermal runaway of Lithium-ion batteries earned the prestigious Best Paper Award at a prominent conference.
+
+- Currently, I am leading a talented team of four students in the development of an innovative swash plate-less helicopter.
 
 # Education
 ## IIEST(Indian Institute of Engineering Science and Technology), Shibpur  
