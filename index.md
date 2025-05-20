@@ -4,10 +4,10 @@ title: Home
 ---
 
 
-Hi!, I'm Subhadeep, a CS PhD student at Lehigh University. I work with Professor David Saldana as a part of the Swarms Lab. You will find my resume [here](https://docs.google.com/document/d/1R4gfbGRg_DPmfEXfYtnhAesv7193RAoXcedgzMwPltI/export/pdf).
+Hi!, I'm Subhadeep, a CS PhD student at Lehigh University. I work with Professor David Saldana as a part of the Swarms Lab. You will find my resume [here](https://docs.google.com/document/d/1R4gfbGRg_DPmfEXfYtnhAesv7193RAoXcedgzMwPltI/export/pdf) and my Google scholar [here.](https://scholar.google.com/citations?user=_b0J6xoAAAAJ&hl=en). 
 
 # What am I working on?
-I have just completed my first year in the PhD, and am trying to find a research direction for myself. I am interested in a couple of problems:
+I have just completed the first year of my PhD, and am trying to find a research direction for myself. I am interested in a couple of problems:
 1. Aerial robot navigation in turbulent flows: How can robots collaborate and share information to tackle turbulent air flows and reach their goals.
 2. Modelling complex physical interactions using Model-based Reinforcement Learning. 
 
@@ -22,8 +22,8 @@ Details regarding my experiences are available in my resume. Here's a brief summ
 
 # Education
 
-## Lehigh University, PA, USA
-PhD, CS 
+## Lehigh University, PA
+PhD • COMPUTER SCIENCE [2024-Present]
 Advisor: Dr. David Saldana
 
 ## IIEST(Indian Institute of Engineering Science and Technology), Shibpur  
