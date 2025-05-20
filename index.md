@@ -4,29 +4,28 @@ title: Home
 ---
 
 
-Hi!, I'm Subhadeep, a Mechanical Engineering senior at [Indian Institute of Engineering Science and Technology, Shibpur](https://www.iiests.ac.in/). You will find my resume [here](https://docs.google.com/document/d/1R4gfbGRg_DPmfEXfYtnhAesv7193RAoXcedgzMwPltI/export/pdf).
+Hi!, I'm Subhadeep, a CS PhD student at Lehigh University. I work with Professor David Saldana as a part of the Swarms Lab. You will find my resume [here](https://docs.google.com/document/d/1R4gfbGRg_DPmfEXfYtnhAesv7193RAoXcedgzMwPltI/export/pdf).
 
-# What am I passionate about?
-
-I've always been interested in robotics and large systems with lots of moving parts. So far, I've taken up every opportunity that have come my way and have worked on a number of diverse research problems. Recently, I've taken a keen interest in Reinforcement Learning and the exciting world of opportunities it has opened up for enhancing robotic control and decision making.
-
-Beyond my passion for robots, I'm a film enthusiast. My fascination with robotics may well be rooted in that pivotal moment when I first experienced Ridley Scott's Blade Runner 1982. Additionally, I have a deep appreciation for Alt Rock and Hip Hop music, and on lazy Sunday afternoons, you can often find me strumming a Pink Floyd or Guns N' Roses tune on my guitar.
+# What am I working on?
+I have just completed my first year in the PhD, and am trying to find a research direction for myself. I am interested in a couple of problems:
+1. Aerial robot navigation in turbulent flows: How can robots collaborate and share information to tackle turbulent air flows and reach their goals.
+2. Modelling complex physical interactions using Model-based Reinforcement Learning. 
 
 # A semi-professional summary 
 
 Details regarding my experiences are available in my resume. Here's a brief summary:
 
-- I have 1.5 years of research experience in the fields of robotics and UAVs. 
-
-- I successfully crafted a ROS framework for a decentralised drone swarm, enabling both leader-follower mode and independent missions. This framework powered the deployment of a swarm of five drones.
-
-- As a key contributor to the Swarm Project at SPIN Lab, IIT Kanpur, I engineered essential network monitoring tools and ROS-based congestion control solutions for dynamic mesh networks.
-
-- Additionally, my co-authorship on a paper addressing the thermal runaway of Lithium-ion batteries earned the prestigious Best Paper Award at a prominent conference.
-
-- Currently, I am leading a talented team of four students in the development of an innovative swash plate-less helicopter.
+- Have 2.5+ years of experience of research in the fields of robotics and UAVs.
+- Developed a ROS framework for a decentralized drone swarm that supports leader-follower mode and independent missions, which was used to deploy a swarm of 5 drones at IIT Kanpur
+- Developed network monitoring and ROS based congestion control tools for moving mesh networks
+- Co-authored a paper on thermal runaway of Lithium-ion batteries that won the best paper award at a conference and a paper on multi-robot pursuit evasion at Conference of Robot Learning (CORL ‘24) 
 
 # Education
+
+## Lehigh University, PA, USA
+PhD, CS 
+Advisor: Dr. David Saldana
+
 ## IIEST(Indian Institute of Engineering Science and Technology), Shibpur  
 BACHELOR OF TECHNOLOGY • MECHANICAL ENGINEERING [2020-Present] 
 CGPA : 8.54/10 
@@ -39,11 +38,14 @@ Percentage obtained : 93.8%
 
 # Publications
 
-Ajit Das, Saumendra Nath Mishra, **Subhadeep Koley**, Sourav Sarkar, Achintya Mukhopadhyay, Swarnendu Sen:  “Early detection of thermal runaway of lithium-ion battery- an experimental study”. IEEE 3rd International Conference on “Sustainable Energy and Future Electric Transportation” [Best paper award](https://drive.google.com/file/d/1FeZFQ7x7Wm1YGEY3cGaPKMvMhaADiMVU/view?usp=sharing)
+-Yizhuo Wang, Yuhong Cao, Jimmy Chiun, Subhadeep Koley, Mandy Pham, Guillaume Adrien Sartoretti “ViPER: Visibility-based Pursuit-Evasion via Reinforcement Learning”. Conference on Robot Learning 2024
+
+-Ajit Das, Saumendra Nath Mishra, **Subhadeep Koley**, Sourav Sarkar, Achintya Mukhopadhyay, Swarnendu Sen:  “Early detection of thermal runaway of lithium-ion battery- an experimental study”. IEEE 3rd International Conference on “Sustainable Energy and Future Electric Transportation” [Best paper award](https://drive.google.com/file/d/1FeZFQ7x7Wm1YGEY3cGaPKMvMhaADiMVU/view?usp=sharing)
+
 
 # Contact
-Email: ksubhadeepwork@gmail.com
-Discord: crimsonblues3667
+Email: svk324@lehigh.edu
+
 
 
 
