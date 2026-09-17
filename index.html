@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Subhadeep Koley</title>
+  <meta name="author" content="Subhadeep Koley">
+  <meta name="description" content="CS PhD student at Lehigh University working on aerial robotics, multi-robot systems, and robot learning.">
+  <link rel="canonical" href="https://subhadeepk.github.io/">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚁</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background: #fff;
+      color: #222;
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+    a { color: #1772d0; text-decoration: none; }
+    a:hover, a:focus { color: #f09228; }
+    a:focus-visible { outline: 2px solid #f09228; outline-offset: 2px; }
+    strong { font-weight: 700; }
+
+    .page { max-width: 820px; margin: 0 auto; padding: 24px 16px 40px; }
+
+    /* Intro */
+    .intro { display: flex; gap: 32px; align-items: center; padding: 16px 0 8px; }
+    .intro-text { flex: 1 1 60%; }
+    .intro-photo { flex: 0 0 34%; text-align: center; }
+    .intro-photo img {
+      width: 100%; max-width: 240px; aspect-ratio: 1; object-fit: cover;
+      border-radius: 50%;
+    }
+    .name { font-size: 32px; text-align: center; margin: 0 0 12px; font-weight: 400; }
+    .links { text-align: center; margin-top: 14px; }
+    .links a { margin: 0 4px; }
+    .seeking {
+      background: #fff8e6; border-left: 3px solid #f09228;
+      padding: 8px 12px; margin: 12px 0 0;
+    }
+
+    h2 { font-size: 22px; font-weight: 400; margin: 36px 0 4px; }
+    .section-note { margin: 0 0 12px; color: #555; }
+
+    /* Publications */
+    .pub {
+      display: flex; gap: 20px; align-items: center;
+      padding: 16px 10px; border-radius: 4px;
+    }
+    .pub.highlight { background: #ffffd0; }
+    .pub-media { flex: 0 0 200px; }
+    .pub-media img, .pub-media .placeholder {
+      width: 200px; height: 140px; object-fit: cover; border-radius: 3px; display: block;
+    }
+    .placeholder {
+      background: #eef1f5; color: #7a8594; font-size: 13px;
+      display: flex !important; align-items: center; justify-content: center; text-align: center;
+    }
+    .pub-body { flex: 1; }
+    .pub-title { font-size: 16px; font-weight: 700; }
+    .venue { font-style: italic; }
+    .award { color: #c0392b; font-weight: 700; }
+    .pub-body p { margin: 6px 0 0; }
+
+    /* News */
+    .news { width: 100%; border-collapse: collapse; }
+    .news td { padding: 6px 0; vertical-align: top; }
+    .news td.date { width: 110px; color: #555; white-space: nowrap; padding-right: 16px; }
+
+    footer { text-align: right; font-size: 13px; color: #777; margin-top: 40px; }
+
+    @media (max-width: 640px) {
+      .intro { flex-direction: column-reverse; gap: 12px; }
+      .pub { flex-direction: column; align-items: flex-start; }
+      .pub-media, .pub-media img, .pub-media .placeholder { width: 100%; flex-basis: auto; }
+      .pub-media img, .pub-media .placeholder { height: auto; aspect-ratio: 10/7; }
+      .news td.date { width: 90px; }
+    }
+  </style>
+</head>
+<body>
+<main class="page">
+
+  <!-- ===================== INTRO ===================== -->
+  <section class="intro">
+    <div class="intro-text">
+      <h1 class="name">Subhadeep Koley</h1>
+      <p>
+        I'm a Computer Science PhD student at <a href="https://www.lehigh.edu/">Lehigh University</a>,
+        advised by <a href="https://www.saldanalab.com/">Prof. David Saldaña</a> in the Swarms Lab.
+      </p>
+      <p>
+        I am interested in how <strong>aerial robots</strong> can share information to navigate
+        <strong>turbulent airflow</strong>, and in <strong>model-based reinforcement learning</strong>
+        for complex physical interactions. Before Lehigh, I built decentralized drone-swarm software
+        deployed on a five-drone swarm at IIT Kanpur.
+      </p>
+      <p class="seeking">
+        I'm looking for <strong>research internships for Summer 2027</strong> in aerial robotics,
+        multi-robot systems, and robot learning.
+      </p>
+      <p class="links">
+        <a href="mailto:svk324@lehigh.edu">Email</a> /
+        <a href="data/Subhadeep_Koley_CV.pdf">CV</a> /
+        <a href="https://scholar.google.com/citations?user=_b0J6xoAAAAJ&hl=en">Scholar</a> /
+        <a href="https://github.com/subhadeepk">GitHub</a> /
+        <a href="https://www.linkedin.com/in/subhadeep-koley-70251b1bb/">LinkedIn</a>
+      </p>
+    </div>
+    <div class="intro-photo">
+      <img src="assets/jpg/sqfin.jpg" alt="Photo of Subhadeep Koley">
+    </div>
+  </section>
+
+  <!-- ===================== SELECTED PUBLICATIONS ===================== -->
+  <h2>Selected publications</h2>
+  <p class="section-note">
+    Full list on <a href="https://scholar.google.com/citations?user=_b0J6xoAAAAJ&hl=en">Google Scholar</a>.
+  </p>
+
+  <!-- Copy one .pub block per paper. Add class="pub highlight" to feature a paper. -->
+  <div class="pub highlight">
+    <div class="pub-media">
+      <img src="images/viper.gif" alt="ViPER pursuit-evasion demo"
+           onerror="this.outerHTML='<div class=&quot;placeholder&quot;>images/viper.gif</div>'">
+    </div>
+    <div class="pub-body">
+      <a href="https://arxiv.org/abs/2411.02459" class="pub-title">
+        ViPER: Visibility-based Pursuit-Evasion via Reinforcement Learning
+      </a>
+      <p>
+        Yizhuo Wang, Yuhong Cao, Jimmy Chiun, <strong>Subhadeep Koley</strong>,
+        Mandy Pham, Guillaume Adrien Sartoretti
+      </p>
+      <p><span class="venue">Conference on Robot Learning (CoRL)</span>, 2024</p>
+      <p>
+        <a href="https://arxiv.org/abs/2411.02459">paper</a> /
+        <a href="https://openreview.net/forum?id=EPujQZWemk">project page</a> /
+        <a href="https://github.com/marmotlab/ViPER">code</a>
+      </p>
+      <p>A learned policy lets a team of robots coordinate to find and track evaders in unknown environments.</p>
+    </div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-media">
+      <img src="images/thermal_runaway.png" alt="Battery thermal runaway experiment"
+           onerror="this.outerHTML='<div class=&quot;placeholder&quot;>images/thermal_runaway.png</div>'">
+    </div>
+    <div class="pub-body">
+      <a href="https://doi.org/10.1109/SEFET57834.2023.10245991" class="pub-title">
+        Early Detection of Thermal Runaway of Lithium-ion Battery: An Experimental Study
+      </a>
+      <p>
+        Ajit Das, Saumendra Nath Mishra, <strong>Subhadeep Koley</strong>, Sourav Sarkar,
+        Achintya Mukhopadhyay, Swarnendu Sen
+      </p>
+      <p><span class="venue">IEEE Conference on Sustainable Energy and Future Electric Transportation (SEFET)</span>, 2023</p>
+      <p><span class="award">Best Paper Award</span></p>
+      <p>
+        <a href="https://doi.org/10.1109/SEFET57834.2023.10245991">paper</a> /
+        <a href="https://drive.google.com/file/d/1FeZFQ7x7Wm1YGEY3cGaPKMvMhaADiMVU/view?usp=sharing">award</a>
+      </p>
+    </div>
+  </div>
+
+  <!-- ===================== NEWS ===================== -->
+  <h2>News</h2>
+  <table class="news">
+    <tr>
+      <td class="date">Sep 2026</td>
+      <td>Started exploring collaborative aerial navigation in turbulent flows.</td>
+    </tr>
+    <tr>
+      <td class="date">Nov 2024</td>
+      <td><a href="https://arxiv.org/abs/2411.02459">ViPER</a> presented at <strong>CoRL 2024</strong> in Munich.</td>
+    </tr>
+    <tr>
+      <td class="date">Aug 2024</td>
+      <td>Started my PhD at <strong>Lehigh University</strong> with Prof. David Saldaña.</td>
+    </tr>
+    <tr>
+      <td class="date">Aug 2023</td>
+      <td>Won the <strong>Best Paper Award</strong> at IEEE SEFET for work on early detection of battery thermal runaway.</td>
+    </tr>
+  </table>
+
+  <footer>
+    Template inspired by <a href="https://github.com/jonbarron/jonbarron.github.io">Jon Barron</a>.
+  </footer>
+</main>
+</body>
+</html>
