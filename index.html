@@ -44,7 +44,7 @@
     h2 { font-size: 22px; font-weight: 400; margin: 36px 0 4px; }
     .section-note { margin: 0 0 12px; color: #555; }
 
-    /* Publications */
+    /* Publications & projects (shared card layout) */
     .pub {
       display: flex; gap: 20px; align-items: center;
       padding: 16px 10px; border-radius: 4px;
@@ -63,6 +63,9 @@
     .venue { font-style: italic; }
     .award { color: #c0392b; font-weight: 700; }
     .pub-body p { margin: 6px 0 0; }
+    .pub-body ul { margin: 6px 0 0; padding-left: 18px; }
+    .pub-body li { margin: 2px 0; }
+
 
     /* News */
     .news { width: 100%; border-collapse: collapse; }
@@ -120,7 +123,59 @@
     Full list on <a href="https://scholar.google.com/citations?user=_b0J6xoAAAAJ&hl=en">Google Scholar</a>.
   </p>
 
-  <!-- Copy one .pub block per paper. Add class="pub highlight" to feature a paper. -->
+  <!-- Under review: replace each href="#" (marked TODO) with the arXiv and video links,
+       and fill in the full author list in order. -->
+  <div class="pub">
+    <div class="pub-media">
+      <img src="images/hintblimp_gif.gif" alt="A person pushes a robotic blimp, then says go right to steer it around an obstacle"
+           onerror="this.outerHTML='<div class=&quot;placeholder&quot;>images/hint_blimp.gif</div>'">
+    </div>
+    <div class="pub-body">
+      <a href="#" class="pub-title"><!-- TODO: arXiv link -->
+        HINT-Blimp: Human INTent Inference from Multimodal Cues for Robotic Blimps
+      </a>
+      <p>
+        <strong>Subhadeep Koley</strong>, Benjamin Greenberg, Yifei Simon Shao, Juan Aceros, Nadia Figueroa , David Saldaña 
+      </p>
+      <p><span class="venue">Under review</span>, 2026</p>
+      <p>
+        <a href="#">arXiv</a> / <!-- TODO -->
+        <a href="https://youtu.be/b_QbHGdgBf4?si=kgzJOAOxQNDNIS6V">video</a>   <!-- TODO -->
+      </p>
+      <p>
+        A blimp works out where a person wants it to go, and how to get there, from pushes,
+        voice commands, and pointing. Combining pushes and voice identified the intended goal
+        86% of the time, usually within two interactions, and can steer the blimp around
+        obstacles only the person knows about.
+      </p>
+    </div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-media">
+      <img src="images/Bounce_gif.gif" alt="Planned path that bounces off walls compared with a collision-free path"
+           onerror="this.outerHTML='<div class=&quot;placeholder&quot;>images/wall_bounce.png</div>'">
+    </div>
+    <div class="pub-body">
+      <a href="#" class="pub-title"><!-- TODO: arXiv link -->
+        Planning Trajectories that Bounce: Reflection Classes for Collision-Tolerant Robots
+      </a>
+      <p>
+        <strong>Subhadeep Koley</strong>, Subhrajit Bhattacharyya , David Saldaña <!-- TODO: full author list -->
+      </p>
+      <p><span class="venue">Under review</span>, 2026</p>
+      <p>
+        <a href="#">arXiv</a> / <!-- TODO -->
+        <a href="https://youtu.be/bygwxGIbFh4?si=iHtWybw3Qy1aJp9q">video</a>   <!-- TODO -->
+      </p>
+      <p>
+        A planner that lets collision-tolerant robots bounce off walls on purpose, grouping paths
+        by the sequence of walls they hit. In simulation, the best bouncing path cut control effort
+        by a median 16.6% compared with a collision-free path, even though it was longer.
+      </p>
+    </div>
+  </div>
+
   <div class="pub highlight">
     <div class="pub-media">
       <img src="images/viper.gif" alt="ViPER pursuit-evasion demo"
@@ -166,12 +221,46 @@
     </div>
   </div>
 
+  <!-- ===================== PROJECTS ===================== -->
+  <!-- Replace every href="#" (marked TODO) with your real links from the CV. -->
+  <h2>Projects</h2>
+  <p class="section-note">Engineering work outside my publications.</p>
+
+  <div class="pub">
+    <div class="pub-media">
+      <img src="images/iitkanpur_network.png" alt="Five-drone swarm flying in formation at IIT Kanpur"
+           onerror="this.outerHTML='<div class=&quot;placeholder&quot;>images/drone_swarm.gif</div>'">
+    </div>
+    <div class="pub-body">
+      <a href="https://drive.google.com/drive/folders/1TChMz4PDQW4giv97GUWhrWedk10NNIpQ" class="pub-title">
+        Decentralized Drone Swarm
+      </a>
+      <p>
+        <a href="https://home.iitk.ac.in/~ketan/">SPiN Lab</a>, IIT Kanpur
+        (SURGE research internship with Dr. Ketan Rajawat), 2023
+      </p>
+      <p>
+        <a href="https://drive.google.com/drive/folders/1TChMz4PDQW4giv97GUWhrWedk10NNIpQ">report</a> /
+        <a href="https://youtu.be/Jn5sE0hCgE8?si=p9bNNngFBTIwXde4">video</a> /
+        <a href="#">leader election code</a> <!-- TODO -->
+      </p>
+      <p>Part of a 10-person team building ROS software for a swarm with no central controller, deployed on five real drones. I worked on:</p>
+      <ul>
+        <li>a mission framework supporting both leader-follower flight and independent per-drone missions
+          (<a href="https://youtu.be/xq_rb1A7OfA?si=7fAqY41q4sVqlvcB">video</a>)</li>
+        <li>decentralized leader election, so the swarm picks a new leader if the current one fails</li>
+        <li>inter-drone collision avoidance, tested under motion capture</li>
+        <li>network monitoring and congestion control for the swarm's mesh network</li>
+      </ul>
+    </div>
+  </div>
+
   <!-- ===================== NEWS ===================== -->
   <h2>News</h2>
   <table class="news">
     <tr>
       <td class="date">Oct 2026</td>
-      <td>Presenting <strong>HintBlimp</strong>, our work on physical human-robot interaction with blimps, at the
+      <td>Presenting <strong>HINT-Blimp</strong>, our work on physical human-robot interaction with blimps, at the
         <a href="https://nocworkshop.github.io/2026-IROS/">Workshop on Nonverbal Cues for Human-Robot Cooperative Intelligence</a>
         at <strong>IROS 2026</strong> in Pittsburgh.</td>
     </tr>
@@ -202,6 +291,11 @@
     <tr>
       <td class="date">May 2023</td>
       <td>Started working on <a href="https://www.linkedin.com/posts/indian-institute-of-technology-kanpur_uav-dronetechnology-aerospace-activity-7135140765285896192-JqVH?utm_source=li_share&utm_content=feedcontent&utm_medium=g_dt_web&utm_campaign=copy">decentralized drone swarms</a> with <a href="https://home.iitk.ac.in/~ketan/">Dr. Ketan Rajawat</a> at IIT Kanpur. </td>
+    </tr>
+    <tr>
+      <td class="date">Dec 2022</td>
+      <td>Joined <strong>EndureAir Systems</strong> as a flight software intern, working with the PX4 stack
+        and building a MATLAB <a href="#">range-extension tool</a> for a drop tank with delayed wing deployment.</td> <!-- TODO: GitHub repo link -->
     </tr>
   </table>
 
