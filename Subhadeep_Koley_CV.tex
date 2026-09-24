@@ -1,0 +1,188 @@
+%-------------------------------------------------------------
+% Subhadeep Koley -- Research CV (1-2 pages)
+% Compile with: pdflatex Subhadeep_Koley_CV.tex
+%-------------------------------------------------------------
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[margin=0.7in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{charter}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+
+\definecolor{accent}{HTML}{1F4E79}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section headings: small caps with a rule underneath
+\titleformat{\section}{\large\scshape\color{accent}}{}{0em}{}[\vspace{-6pt}\rule{\textwidth}{0.4pt}]
+\titlespacing*{\section}{0pt}{10pt}{6pt}
+
+% Tight bullet lists
+\setlist[itemize]{leftmargin=1.2em, itemsep=1pt, topsep=2pt, parsep=0pt}
+
+% \entry{Title}{Dates}{Subtitle}{Location}
+\newcommand{\entry}[4]{%
+  \textbf{#1} \hfill #2 \\
+  \textit{#3} \hfill \textit{#4}\par\vspace{1pt}}
+
+% \pub{Authors}{Title}{Venue}{Links}
+\newcommand{\pub}[4]{%
+  \item #1. \textbf{#2}. \textit{#3}. #4}
+
+\newcommand{\me}{\textbf{Subhadeep Koley}}
+
+\begin{document}
+
+%----------------------------- HEADER -----------------------------
+\begin{center}
+  {\LARGE \textbf{Subhadeep Koley}}\\[4pt]
+  PhD Student, Computer Science and Engineering, Lehigh University\\[2pt]
+  \href{mailto:svk324@lehigh.edu}{svk324@lehigh.edu} \;|\;
+  \href{https://subhadeepk.github.io}{subhadeepk.github.io} \;|\;
+  \href{https://scholar.google.com/citations?user=_b0J6xoAAAAJ&hl=en}{Google Scholar} \;|\;
+  \href{https://github.com/subhadeepk}{github.com/subhadeepk} \;|\;
+  \href{https://www.linkedin.com/in/subhadeep-koley-70251b1bb/}{LinkedIn}
+\end{center}
+
+\vspace{-4pt}
+\textbf{Research interests:} aerial robotics, physical human-robot interaction, motion planning,
+learning-based control. Seeking research internships for Summer 2027.
+
+%----------------------------- EDUCATION -----------------------------
+\section{Education}
+
+\entry{Lehigh University}{Aug 2024 -- Present}
+      {PhD, Computer Science and Engineering. Advisor: Prof.\ David Salda\~na}{Bethlehem, PA}
+\vspace{3pt}
+\entry{Indian Institute of Engineering Science and Technology (IIEST), Shibpur}{2020 -- 2024}
+      {B.Tech., Mechanical Engineering. CGPA: 8.56/10}{Howrah, India}
+
+%----------------------------- PUBLICATIONS -----------------------------
+\section{Publications}
+
+\textit{Under review}
+\begin{itemize}
+  \pub{\me, Benjamin Greenberg, Yifei Simon Shao, Juan Aceros, Nadia Figueroa, David Salda\~na}
+      {HINT-Blimp: Human INTent Inference from Multimodal Cues for Robotic Blimps}
+      {Under review, 2026}
+      {[\href{https://arxiv.org/abs/2609.27154}{arXiv}] [\href{https://youtu.be/b_QbHGdgBf4}{video}]}
+  \pub{\me, Subhrajit Bhattacharya, David Salda\~na}
+      {Planning Trajectories that Bounce: Reflection Classes for Collision-Tolerant Robots}
+      {Under review, 2026}
+      {[\href{https://arxiv.org/abs/2609.27145}{arXiv}] [\href{https://youtu.be/bygwxGIbFh4}{video}]}
+\end{itemize}
+
+\textit{Conference papers}
+\begin{itemize}
+  \pub{Yizhuo Wang, Yuhong Cao, Jimmy Chiun, \me, Mandy Pham, Guillaume Adrien Sartoretti}
+      {ViPER: Visibility-based Pursuit-Evasion via Reinforcement Learning}
+      {Conference on Robot Learning (CoRL), 2024}
+      {[\href{https://openreview.net/forum?id=EPujQZWemk}{paper}] [\href{https://www.youtube.com/watch?v=r2SurmnPKuA}{video}] [\href{https://github.com/marmotlab/ViPER}{code}]}
+  \pub{Ajit Das, Saumendra Nath Mishra, \me, Sourav Sarkar, Achintya Mukhopadhyay, Swarnendu Sen}
+      {Early Detection of Thermal Runaway of Lithium-ion Battery: An Experimental Study}
+      {IEEE Conf.\ on Sustainable Energy and Future Electric Transportation (SEFET), 2023}
+      {\textbf{Best Paper Award}. [\href{https://doi.org/10.1109/SEFET57834.2023.10245991}{paper}]}
+\end{itemize}
+
+\textit{Workshop papers}
+\begin{itemize}
+  \pub{\me, Benjamin Greenberg, Yifei Simon Shao, Nadia Figueroa, David Salda\~na}
+      {HINT-Blimp: Human INTent Inference from Multimodal Cues for Robotic Blimps}
+      {IROS 2026 Workshop on Nonverbal Cues for Human-Robot Cooperative Intelligence, Pittsburgh, 2026.
+       Spotlight talk and poster}
+      {[\href{https://nocworkshop.github.io/2026-IROS/resources/15/Camera_ready_HintBlimp_IROS_NoC_workshop.pdf}{paper}]
+       [\href{https://www.youtube.com/watch?v=P_ZU_f_-qek}{video}]
+       [\href{https://nocworkshop.github.io/2026-IROS/resources/15/IROS_workshop_poster.pdf}{poster}]}
+\end{itemize}
+
+\textit{Posters and demos}
+\begin{itemize}
+  % TODO: replace with the exact title of your NERC poster
+  \item \textbf{[Poster title]}. Poster presentation, \textit{Northeast Robotics Colloquium (NERC)},
+        Princeton University, Oct 2026.
+  \item Live demonstration of \href{https://ieeexplore.ieee.org/document/11127424}{MochiSwarm}, an open-source swarm of lightweight robotic blimps. \textit{ICRA 2025}, Atlanta.
+\end{itemize}
+
+%----------------------------- RESEARCH EXPERIENCE -----------------------------
+\section{Research Experience}
+
+\entry{Graduate Researcher, Swarms Lab, Lehigh University}{Aug 2024 -- Present}
+      {Advisor: Prof.\ David Salda\~na}{Bethlehem, PA}
+\begin{itemize}
+  \item Built a multimodal intent-inference system for robotic blimps using physical pushes, voice and pointing;
+        combining pushes and voice identified the intended goal 86\% of the time, usually within two interactions,
+        and let users steer the blimp around obstacles only they knew about.
+  \item Developed a planner that lets collision-tolerant robots bounce off walls deliberately, grouping paths into
+        reflection classes by wall-contact sequence; the best bouncing path reduced control effort by a median
+        16.6\% versus a collision-free path in simulation.
+  \item Optimizing cross-entropy-method-based model predictive control for sample-efficient planning on
+        real quadrotors (May 2025 -- present).
+  \item Won first place at Defend the Republic 2024 against teams including Georgia Tech, UMich and ASU;
+        built and maintained 16+ robots and added ultrasonic wall avoidance to the hardware and software stack.
+\end{itemize}
+
+\entry{Research Intern, MARMoT Lab, National University of Singapore}{Jan 2024 -- May 2024}
+      {Mentor: Dr.\ Guillaume Sartoretti}{Remote}
+\begin{itemize}
+  \item Worked on reinforcement learning for multi-robot visibility-based pursuit-evasion in unknown
+        environments; published at CoRL 2024 (ViPER).
+\end{itemize}
+
+\entry{SURGE Research Intern, SPiN Lab, IIT Kanpur}{May 2023 -- Aug 2023}
+      {Mentor: Dr.\ Ketan Rajawat}{Kanpur, India}
+\begin{itemize}
+  \item Part of a 10-person team building ROS software for a decentralized drone swarm, deployed on five real drones
+        [\href{https://drive.google.com/drive/folders/1TChMz4PDQW4giv97GUWhrWedk10NNIpQ}{report}]
+        [\href{https://youtu.be/Jn5sE0hCgE8}{video}].
+  \item Developed a mission framework supporting leader-follower flight and independent per-drone missions
+        [\href{https://youtu.be/xq_rb1A7OfA}{video}].
+  \item Built decentralized leader election so the swarm elects a new leader on leader failure.
+  \item Developed inter-drone collision avoidance, tested under motion capture, and network monitoring and
+        congestion control for the swarm's mesh network.
+\end{itemize}
+
+\entry{Research Intern, Jadavpur University}{Jul 2022 -- Dec 2022}
+      {Mentor: Dr.\ Sourav Sarkar}{Kolkata, India}
+\begin{itemize}
+  \item Built a heat- and gas-sensor setup for early detection of lithium-ion battery thermal runaway,
+        leading to a Best Paper Award at IEEE SEFET 2023.
+  \item Built a multi-point wireless temperature acquisition system for a Tata Steel-funded project
+        studying cooling rates in rolling-mill cooling beds.
+\end{itemize}
+
+\entry{Flight Software Intern, EndureAir Systems}{Dec 2022 -- Feb 2023}
+      {Mentor: Dr.\ Kuldeep Kumar Dhiman}{Noida, India}
+\begin{itemize}
+  \item Worked with the PX4 flight stack; built a MATLAB range-extension tool for a drop tank with delayed wing deployment.
+\end{itemize}
+
+%----------------------------- AWARDS -----------------------------
+\section{Awards}
+\begin{itemize}
+  \item First place, Defend the Republic drone competition, Indiana University \hfill Nov 2024
+  \item Best Paper Award, IEEE SEFET \hfill Aug 2023
+\end{itemize}
+
+%----------------------------- TEACHING -----------------------------
+\section{Teaching}
+\begin{itemize}
+  \item Teaching Assistant, CSE 340: Design and Analysis of Algorithms, Lehigh University
+\end{itemize}
+
+%----------------------------- SKILLS -----------------------------
+\section{Technical Skills}
+% TODO: add C++, ROS 2, or other languages/tools you actually use in the blimp work.
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+  \textbf{Languages}   & Python, MATLAB \\
+  \textbf{Robotics}    & ROS, PX4, Gazebo, CoppeliaSim, MoveIt, motion capture \\
+  \textbf{ML / Vision} & PyTorch, OpenCV \\
+  \textbf{Hardware}    & ESP32, ATmega328, Raspberry Pi, SolidWorks, 3D printing \\
+\end{tabularx}
+
+\end{document}
