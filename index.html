@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Subhadeep Koley</title>
   <meta name="author" content="Subhadeep Koley">
-  <meta name="description" content="CS PhD student at Lehigh University working on aerial robotics, multi-robot systems, and robot learning.">
+  <meta name="description" content="CS PhD student at Lehigh University working on aerial robotics, human-robot interaction and robot learning.">
   <link rel="canonical" href="https://subhadeepk.github.io/">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚁</text></svg>">
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -91,13 +91,19 @@
     <div class="intro-text">
       <h1 class="name">Subhadeep Koley</h1>
       <p>
-        I'm a Computer Science PhD student at <a href="https://www.lehigh.edu/">Lehigh University</a>,
+        I'm a third year Computer Science PhD student at <a href="https://www.lehigh.edu/">Lehigh University</a>,
         advised by <a href="https://engineering.lehigh.edu/faculty/david-saldana/">Prof. David Saldaña</a>.
       </p>
       <p>
+<<<<<<< HEAD
         I've worked on physical human-robot interaction with blimps and on path planning algorithms for collision tolerant robots. Before that, I developed decentralized
         swarm software deployed on five drones at IIT Kanpur and worked on multi-robot pursuit-evasion
         at NUS (<a href="https://arxiv.org/abs/2411.02459">CoRL 2024</a>).
+=======
+        I've worked on physical human-robot interaction with blimps and on path planning algorithms for collision tolerant robots. Before that, I built decentralized
+        swarm software at IIT Kanpur and worked on multi-robot pursuit-evasion
+        with Dr. Guillaume Adrien Sartoretti at NUS.</a>.
+>>>>>>> 04563da4a1888756e3ab1d1d86c8fdfeffc1db78
         Apart from these, I am interested in <strong>learning-based control</strong> and on
         <strong>navigating unknown environments with legged robots</strong>.
       </p>
@@ -107,7 +113,7 @@
       </p>
       <p class="links">
         <a href="mailto:svk324@lehigh.edu">Email</a> /
-        <a href="data/Subhadeep_Koley_CV.pdf">CV</a> /
+        <a href="cv/Subhadeep_Koley_CV.pdf">CV</a> /
         <a href="https://scholar.google.com/citations?user=_b0J6xoAAAAJ&hl=en">Scholar</a> /
         <a href="https://github.com/subhadeepk">GitHub</a> /
         <a href="https://www.linkedin.com/in/subhadeep-koley-70251b1bb/">LinkedIn</a>
@@ -119,7 +125,7 @@
   </section>
 
   <!-- ===================== SELECTED PUBLICATIONS ===================== -->
-  <h2>Selected publications</h2>
+  <h2>Publications</h2>
   <p class="section-note">
     Full list on <a href="https://scholar.google.com/citations?user=_b0J6xoAAAAJ&hl=en">Google Scholar</a>.
   </p>
@@ -132,7 +138,7 @@
            onerror="this.outerHTML='<div class=&quot;placeholder&quot;>images/hint_blimp.gif</div>'">
     </div>
     <div class="pub-body">
-      <a href="#" class="pub-title"><!-- TODO: arXiv link -->
+      <a href="https://arxiv.org/abs/2609.27154" class="pub-title">
         HINT-Blimp: Human INTent Inference from Multimodal Cues for Robotic Blimps
       </a>
       <p>
@@ -140,8 +146,9 @@
       </p>
       <p><span class="venue">Under review</span>, 2026</p>
       <p>
-        <a href="#">arXiv</a> / <!-- TODO -->
-        <a href="https://youtu.be/b_QbHGdgBf4?si=kgzJOAOxQNDNIS6V">video</a>   <!-- TODO -->
+        <a href="https://arxiv.org/abs/2609.27154">arXiv</a> /
+        <a href="https://youtu.be/b_QbHGdgBf4?si=kgzJOAOxQNDNIS6V">video</a> /
+        <a href="https://nocworkshop.github.io/2026-IROS/#speakers">workshop</a>
       </p>
       <p>
         A blimp works out where a person wants it to go, and how to get there, from pushes,
@@ -158,7 +165,7 @@
            onerror="this.outerHTML='<div class=&quot;placeholder&quot;>images/wall_bounce.png</div>'">
     </div>
     <div class="pub-body">
-      <a href="#" class="pub-title"><!-- TODO: arXiv link -->
+      <a href="https://arxiv.org/abs/2609.27145" class="pub-title">
         Planning Trajectories that Bounce: Reflection Classes for Collision-Tolerant Robots
       </a>
       <p>
@@ -166,7 +173,7 @@
       </p>
       <p><span class="venue">Under review</span>, 2026</p>
       <p>
-        <a href="#">arXiv</a> / <!-- TODO -->
+        <a href="https://arxiv.org/abs/2609.27145">arXiv</a> / <!-- TODO -->
         <a href="https://youtu.be/bygwxGIbFh4?si=iHtWybw3Qy1aJp9q">video</a>   <!-- TODO -->
       </p>
       <p>
@@ -192,8 +199,8 @@
       </p>
       <p><span class="venue">Conference on Robot Learning (CoRL)</span>, 2024</p>
       <p>
-        <a href="https://arxiv.org/abs/2411.02459">paper</a> /
-        <a href="https://openreview.net/forum?id=EPujQZWemk">project page</a> /
+        <a href="https://openreview.net/forum?id=EPujQZWemk">paper</a> /
+        <a href="https://www.youtube.com/watch?v=r2SurmnPKuA">video</a> /
         <a href="https://github.com/marmotlab/ViPER">code</a>
       </p>
       <p>A learned policy lets a team of robots coordinate to find and track evaders in unknown environments.</p>
@@ -229,6 +236,33 @@
 
   <div class="pub">
     <div class="pub-media">
+      <img src="images/blimpswarm.gif" alt="Robotic micro-blimps from the BlimpSwarm platform"
+           onerror="this.outerHTML='<div class=&quot;placeholder&quot;>images/blimpswarm.png</div>'">
+    </div>
+    <div class="pub-body">
+      <a href="https://ieeexplore.ieee.org/document/11127424" class="pub-title">
+        BlimpSwarm
+      </a>
+      <p>
+        <a href="https://swarmslab.com/">Swarms Lab</a>, Lehigh University, 2024–2025
+      </p>
+      <p>
+        <a href="https://ieeexplore.ieee.org/document/11127424">paper</a> /
+        <a href="https://arxiv.org/abs/2503.03077">arXiv</a> /
+        <a href="https://engineering.lehigh.edu/news/article/lehigh-robotics-team-soars-victory-defend-republic-drone-competition">DTR news</a>
+      </p>
+      <ul>
+        <li>Contributed to the lab's open-source testbed of lightweight robotic micro-blimps
+          (<a href="https://ieeexplore.ieee.org/document/11127424">MochiSwarm</a>) that operate
+          without external localization, and implemented ultrasonic wall avoidance</li>
+        <li>Won <strong>first place</strong> at Defend the Republic (DTR) 2025 at Indiana University</li>
+        <li>Presented a live demonstration at <strong>ICRA 2025</strong> in Atlanta</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-media">
       <img src="images/iitk_network.png" alt="Five-drone swarm flying in formation at IIT Kanpur"
            onerror="this.outerHTML='<div class=&quot;placeholder&quot;>images/drone_swarm.gif</div>'">
     </div>
@@ -260,9 +294,18 @@
   <table class="news">
     <tr>
       <td class="date">Oct 2026</td>
-      <td>Presenting <strong>HINT-Blimp</strong>, our work on physical human-robot interaction with blimps, at the
-        <a href="https://nocworkshop.github.io/2026-IROS/">Workshop on Nonverbal Cues for Human-Robot Cooperative Intelligence</a>
-        at <strong>IROS 2026</strong> in Pittsburgh.</td>
+      <td>Presenting <strong>HINT-Blimp</strong> as a spotlight talk and poster at the
+        <a href="https://nocworkshop.github.io/2026-IROS/#speakers">Workshop on Nonverbal Cues for Human-Robot Cooperative Intelligence</a>
+        at <strong>IROS 2026</strong> in Pittsburgh.
+        [<a href="https://nocworkshop.github.io/2026-IROS/resources/15/Camera_ready_HintBlimp_IROS_NoC_workshop.pdf">paper</a>]
+        [<a href="https://www.youtube.com/watch?v=P_ZU_f_-qek">video</a>]
+        [<a href="https://nocworkshop.github.io/2026-IROS/resources/15/IROS_workshop_poster.pdf">poster</a>]
+      </td>
+    </tr>
+    <tr>
+      <td class="date">Oct 2026</td>
+      <td>Presenting a poster on <strong>HINT-Blimp</strong> at the
+        <strong>Northeast Robotics Colloquium (NERC)</strong>, Princeton University.</td>
     </tr>
     <tr>
       <td class="date">May 2025</td>
@@ -295,7 +338,7 @@
     <tr>
       <td class="date">Dec 2022</td>
       <td>Joined <strong>EndureAir Systems</strong> as a flight software intern, working with the PX4 stack
-        and building a MATLAB <a href="#">range-extension tool</a> for a drop tank with delayed wing deployment.</td> <!-- TODO: GitHub repo link -->
+        and building a MATLAB range-extension tool for a drop tank with delayed wing deployment.</td>
     </tr>
   </table>
 
